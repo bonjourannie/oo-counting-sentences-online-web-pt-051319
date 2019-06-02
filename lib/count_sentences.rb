@@ -28,6 +28,7 @@ class String
 
   def count_sentences
     self.split(/[.?!]/)
+    
     .count_sentences
   end
 end
